@@ -8,3 +8,16 @@ Name | #Reviews | #Spam | #Non-spam | #Movies | #Users
  ------ | ----- | ------ | ------ | ------ | ------ 
 Candidates | 1,012,555 | - | - | 560 | 174,267
 DMR-Dataset | 3,318 | 1,660 | 1,658 | 36 | 3,229
+
+* The detailed information fields of a review include:
+Field Name | Description | Example
+ ------ | ----- | ------
+user_id | The encrypted Douban ID of user who makes this review. | 5323ae9435a1efb493a53753c007225d
+movie_id | The Douban ID of the movie which this review is written for. | 25779217
+text | The review text writen by this user. | 前几天在中央六台电影频道看了这部电影，服道化有点差强人意，剧情逻辑挺好，演员们表现还可以，值得一看！
+date | The time when this review is written. | 2021-03-31 22:11:01
+stars | The number of stars given this user. | 5
+useful | The number of useful votes received. | 28
+label | If the review is labeled as spam by us, it is 0, otherwise it is 1. | 0
+user_profile | A dictionary which includs the user profile of this user. | *shown below*.
+user_reviews | A dictionary which includes the past reviews (The review time of those reviews is earlier than this review.). | *shown below*.
