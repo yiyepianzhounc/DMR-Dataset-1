@@ -43,7 +43,7 @@ want_viewing_count | The number of movies that user wants to watch. | 32
 
 Field Name | Description | Example
 ---- | ------ | -
-review0 | The first review made by this user. It's value is a dictionary containing the detailed infomation (*movie_id,text,date,stars,useful,tags*) about this review. | 
+review0 | The first review made by this user. It's value is a dictionary containing the detailed infomation (*movie_id, text, date, stars, useful, tags*) about this review. | 
 review1 | The second review made by this user...  |
 ... | ... | 
  
