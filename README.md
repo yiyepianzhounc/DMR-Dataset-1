@@ -10,6 +10,7 @@ Candidates | 1,012,555 | - | - | 560 | 174,267
 DMR-Dataset | 3,318 | 1,660 | 1,658 | 36 | 3,229
 
 * The detailed information fields of a review include:
+
 Field Name | Description | Example
  ------ | ----- | ------
 user_id | The encrypted Douban ID of user who makes this review. | 5323ae9435a1efb493a53753c007225d
