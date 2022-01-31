@@ -57,13 +57,15 @@ directors| The directors of this movie. It's value is a dictionary (The key of t
 writers | It's similar to *directors*. | \{"https://movie.douban.com/celebrity/1274609": "麦曦茵", "https://movie.douban.com/celebrity/1290436": "雷楚雄", "https://movie.douban.com/celebrity/1301472": "杨倩玲", "https://movie.douban.com/celebrity/1378179": "张小娴"}
 actors | It's similar to *directors*. | \{"https://movie.douban.com/celebrity/1023284": "郑秀文", "https://movie.douban.com/celebrity/1038757": "赖雅妍", "https://movie.douban.com/celebrity/1317104": "李晓峰", ...}
 genres | The genres of this movie. | \["剧情", "家庭"]
-languages | The languages which this movie uses.| \["汉语普通话", "粤语"]
-release_times| The time when this movie is opening.| 2019-09-06
-producing_regions | The producing country / region.| \["中国香港", "中国大陆"]
+languages | The languages which this movie uses. | \["汉语普通话", "粤语"]
+release_times| The time when this movie is opening. | 2019-09-06
+producing_regions | The producing country / region. | \["中国香港", "中国大陆"]
 movie_duration | The duration of this movie (minutes). | 118
-average_stars| The average stars calculated by *Douban*| 7.1
+average_stars| The average stars calculated by *Douban*. | 7.1
+roles| The name of roles. | \["范殿元", "栓柱", ...]
 
 # Explanations and Issues
 * In order to protect the privacy of depressed users, we have encrypted the user IDs in DMR-Dataset.
 * The spam and non-spam movie review is labeled based on the labeling strategy proposed by us in our paper "GAIM: Graph-aware Feature Interactional Model for Spam Movie Review Detection" (Under Review).
+* This is part of the whole dataset. We will give more details once the paper is published.
 * Other issues will be updated soon...
