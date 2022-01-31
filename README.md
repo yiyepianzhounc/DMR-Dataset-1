@@ -42,9 +42,22 @@ want_viewing_count | The number of movies that user wants to watch. | 32
 * The detailed information fields of user_reviews include:
 
 Field Name | Description | Example
---- | -------- | -
+--- | --- | -
 review0 | The first review made by this user. It's value is a dictionary containing the detailed infomation (*movie_id, text, date, stars, useful, tags*) about this review. | 
 review1 | The second review made by this user...  |
 ... | ... | 
  
+* The detailed information fields of a movie_profile include: 
  
+Field Name | Description | Example
+--- | --- | -
+movie_name | | 花椒之味
+directors| The directors of this movie. It's value is a dictionary (The key of this dictionary is an url, and the value of it is the name of directors.). | \{"https://movie.douban.com/celebrity/1274609": "麦曦茵"}
+writers | It's similar to *directors*. | \{"https://movie.douban.com/celebrity/1274609": "麦曦茵", "https://movie.douban.com/celebrity/1290436": "雷楚雄", "https://movie.douban.com/celebrity/1301472": "杨倩玲", "https://movie.douban.com/celebrity/1378179": "张小娴"}
+actors | It's similar to *directors*. | \{"https://movie.douban.com/celebrity/1023284": "郑秀文", "https://movie.douban.com/celebrity/1038757": "赖雅妍", "https://movie.douban.com/celebrity/1317104": "李晓峰", ...}
+genres | The genres of this movie. | \["剧情", "家庭"]
+languages | The languages which this movie uses.| \["汉语普通话", "粤语"]
+release_times| The time when this movie is opening.| 2019-09-06
+producing_regions | The producing country / region.| \["中国香港", "中国大陆"]
+movie_duration | The duration of this movie (minutes). | 118
+average_stars| The average stars calculated by *Douban*| 7.1
