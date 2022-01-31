@@ -26,24 +26,24 @@ user_reviews | A dictionary which includes the past reviews (The review time of 
 * The detailed information fields of user_profile include:
 
 Field Name | Description | Example
- ------ | ----- | ------
- screen_name | User nickname. | 豆友233403034
- set_picture | If user set a cover image, it is 1, otherwise it's 0. | 0
- register_time | The time when this user join Douban. | 2021-02-18
- address | The address that user set. | 
- self_description | The self description writen by user. |
- follow_count | The number of user followings. | 0
- followers_count | The number of user followers. | 0
- long_review_count | The number of long review writen by user. | 0
- viewed_count | The number of movies that user has watched. | 49
- on_viewing_count | The number of movies that user is watching. | 0
- want_viewing_count | The number of movies that user wants to watch. | 32
+------ | ----- | ------
+screen_name | User nickname. | 豆友233403034
+set_picture | If user set a cover image, it is 1, otherwise it's 0. | 0
+register_time | The time when this user join Douban. | 2021-02-18
+address | The address that user set. | 
+self_description | The self description writen by user. |
+follow_count | The number of user followings. | 0
+followers_count | The number of user followers. | 0
+long_review_count | The number of long review writen by user. | 0
+viewed_count | The number of movies that user has watched. | 49
+on_viewing_count | The number of movies that user is watching. | 0
+want_viewing_count | The number of movies that user wants to watch. | 32
 
  * The detailed information fields of user_reviews include:
 Field Name | Description | Example
- ------ | ----- | ------
- review0 | The first review made by this user. It's value is a dictionary containing the detailed infomation (*movie_id,text,date,stars,useful,tags*) about this review. | 
- review1 | The second review made by this user...  |
- ... | ... | 
+------ | ----- | ------
+review0 | The first review made by this user. It's value is a dictionary containing the detailed infomation (*movie_id,text,date,stars,useful,tags*) about this review. | 
+review1 | The second review made by this user...  |
+... | ... | 
  
  
