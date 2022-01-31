@@ -13,8 +13,8 @@ DMR-Dataset | 3,318 | 1,660 | 1,658 | 36 | 3,229
 
 Field Name | Description | Example
  --- | ------- | ----
-user_id | The encrypted Douban ID of user who makes this review. | 5323ae9435a1efb493a53753c007225d
-movie_id | The Douban ID of the movie which this review is written for. | 25779217
+user_id | The encrypted *Douban* ID of user who makes this review. | 5323ae9435a1efb493a53753c007225d
+movie_id | The *Douban* ID of the movie which this review is written for. | 25779217
 text | The review text writen by this user. | 前几天在中央六台电影频道看了这部电影，服道化有点差强人意，剧情逻辑挺好，演员们表现还可以，值得一看！
 date | The time when this review is written. | 2021-03-31 22:11:01
 stars | The number of stars given this user. | 5
