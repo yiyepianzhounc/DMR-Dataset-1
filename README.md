@@ -1,5 +1,6 @@
 # Douban Movie Review Dataset (DMR-Dataset)
 ## Introduction
+* This is the dataset constructed in our paper "GAIM: Graph-aware Feature Interactional Model for Spam Movie Review Detection" (Under Review).
 * DMR-Dataset contains spam movie review sampels and non-spam movie review samples collected by a crawler.
 * The dataset is stored in the form of Json, with reviews.json for the movie reviews and movies.json for the movie profiles.
 * As of Jan 31, 2022, the candidate samples collected by the crawler and the various information of the samples in DMR-Dataset are shown in the following table. Once new data is updated later, the statistics in this table will be updated.
@@ -61,3 +62,8 @@ release_times| The time when this movie is opening.| 2019-09-06
 producing_regions | The producing country / region.| \["中国香港", "中国大陆"]
 movie_duration | The duration of this movie (minutes). | 118
 average_stars| The average stars calculated by *Douban*| 7.1
+
+# Explanations and Issues
+* In order to protect the privacy of depressed users, we have encrypted the user IDs in DMR-Dataset.
+* The spam and non-spam movie review is labeled based on the labeling strategy proposed by us in our paper "GAIM: Graph-aware Feature Interactional Model for Spam Movie Review Detection" (Under Review).
+* Other issues will be updated soon...
