@@ -39,4 +39,11 @@ Field Name | Description | Example
  on_viewing_count | The number of movies that user is watching. | 0
  want_viewing_count | The number of movies that user wants to watch. | 32
 
+ * The detailed information fields of user_reviews include:
+Field Name | Description | Example
+ ------ | ----- | ------
+ review0 | The first review made by this user. It's value is a dictionary containing the detailed infomation (*movie_id,text,date,stars,useful,tags*) about this review. | 
+ review1 | The second review made by this user...  |
+ ... | ... | 
+ 
  
