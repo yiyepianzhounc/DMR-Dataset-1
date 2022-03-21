@@ -66,7 +66,7 @@ average_stars| The average stars calculated by *Douban*. | 7.1
 roles| The name of roles. | \["范殿元", "栓柱", ...]
 
 # Explanations and Issues
-* In order to protect the privacy of depressed users, we have encrypted the user IDs in DMR-Dataset.
+* In order to protect the privacy of users, we have encrypted the user IDs in DMR-Dataset.
 * The spam and non-spam movie review is labeled based on the labeling strategy proposed by us in our paper "GAIM: Graph-aware Feature Interactional Model for Spam Movie Review Detection" (Under Review).
 * This is part of the whole dataset. We will give more details once the paper is published.
 * Other issues will be updated soon...
